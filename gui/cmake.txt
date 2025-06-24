@@ -1,0 +1,19 @@
+# Set the minimum required version of CMake
+cmake_minimum_required(VERSION 3.10)
+
+# Set the project name
+project(SunkistGUI)
+
+# Set the C++ standard
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Find the SFML library
+# We expect SFML to be installed on the system or located via SFML_DIR
+find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
+
+# Create the executable from our source file
+add_executable(SunkistGUI src/main.cpp)
+
+# Link the SFML libraries to our executable
+target_link_libraries(SunkistGUI PRIVATE sfml-graphics sfml-window sfml-system)

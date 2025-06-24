@@ -1,0 +1,1 @@
+C:\Users\User\OneDrive\Desktop\New\ Websites\sunkist_os\kernel\target\x86_64-unknown-none\debug\kernel: C:\Users\User\OneDrive\Desktop\New\ Websites\sunkist_os\kernel\src\main.rs C:\Users\User\OneDrive\Desktop\New\ Websites\sunkist_os\kernel\src\vga_buffer.rs
